@@ -1,2 +1,4 @@
 # Desafios-DIO
-Estarão trabalhos feitos após o curso do DIO
+Aqui estarão trabalhos feitos após o curso do DIO
+
+#Primeiro desafio DIO 
