@@ -1,0 +1,26 @@
+#CÓDIGO
+
+const vitorias = 100;
+let rankeadas = 200;
+let saldoDeVitorias = rankeadas - vitorias;
+
+function nivbelDoHeroi(saldoDeVitorias) {
+  switch (true) {
+    case saldoDeVitorias < 10:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de ferro";
+    case saldoDeVitorias >= 11 && saldoDeVitorias <= 20:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de bronze";
+    case saldoDeVitorias >= 21 && saldoDeVitorias <= 50:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de prata";
+    case saldoDeVitorias >= 51 && saldoDeVitorias <= 80:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de ouro";
+    case saldoDeVitorias >= 81 && saldoDeVitorias <= 90:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de diamante";
+    case saldoDeVitorias >= 91 && saldoDeVitorias <= 100:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de lendário";
+    case saldoDeVitorias >= 101:
+      return "O Herói tem de saldo de " + saldoVitorias + " está no nível de imortal";
+  }
+}
+
+console.log(nivbelDoHeroi(saldoDeVitorias));
