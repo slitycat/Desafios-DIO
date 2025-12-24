@@ -1,0 +1,19 @@
+#CÓDIGO
+
+let guerreiro = {
+  nome: "Garry",
+  idade: 35,
+  tipo: "Mago"
+};
+
+console.log(guerreiro.nome + " tem " + guerreiro.idade + " anos é do tipo " + guerreiro.tipo)
+
+if (guerreiro.tipo === "Mago"){
+  console.log("o " + guerreiro.tipo + " atacou usando magia")
+}else if (guerreiro.tipo === "guerreiro"){
+  console.log("o " + guerreiro.tipo + " atacou usando espada")
+}else if(guerreiro.tipo === "monge"){
+   console.log("o " + guerreiro.tipo + " atacou usando  artes marciais")
+}if(guerreiro.tipo === "ninja"){
+   console.log("o " + guerreiro.tipo + " atacou usando shuriken")
+}
